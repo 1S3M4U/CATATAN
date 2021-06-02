@@ -21,6 +21,10 @@ $ sudo shutdown -r now
 
 $ lsmod | grep vboxguest
 
+Outputnya akan terlihat seperti ini:
+
+vboxguest             348160  2 vboxsf
+
 Jika idak ada output berarti modul kernel VirtualBox tidak dimuat/silahkan ulangi langkah2nya.
 
 #############################################################
@@ -33,7 +37,3 @@ cd /mnt/cdrom
 sudo sh ./VBoxLinuxAdditions.run --nox11
 sudo shutdown -r now
 lsmod | grep vboxguest
-
-Outputnya akan terlihat seperti ini:
-
-vboxguest             348160  2 vboxsf
