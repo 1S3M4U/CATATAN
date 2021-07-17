@@ -1,0 +1,7 @@
+https://dontkillmyapp.com/
+
+https://dontkillmyapp.com/api/v2/oppo.json
+
+https://dontkillmyapp.com/api/v2/vivo.json
+
+https://dontkillmyapp.com/api/v2/$VENDOR.json
